@@ -1,6 +1,7 @@
 plugins {
+    alias(libs.plugins.hilt)
+    alias(libs.plugins.ksp)
     id("com.android.library")
-    id("android-bites.hilt-and-mvvm")
 }
 
 android {
@@ -17,7 +18,11 @@ android {
 }
 
 dependencies {
+    implementation(libs.hilt.android)
+    ksp(libs.hilt.android.compiler)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
 }
+
 
 
 

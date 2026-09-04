@@ -16,5 +16,8 @@ android {
 }
 
 dependencies {
+    implementation(project(":ui"))
+    implementation(project(":network"))
 }
+
 

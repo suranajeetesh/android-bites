@@ -1,5 +1,6 @@
 plugins {
     id("com.android.library")
+    id("android-bites.hilt-and-mvvm")
 }
 
 android {
@@ -19,5 +20,7 @@ dependencies {
     implementation(project(":ui"))
     implementation(project(":network"))
 }
+
+
 
 

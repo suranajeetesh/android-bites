@@ -42,7 +42,36 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
+
+    // Project Modules - Core
     implementation(project(":ui"))
+    implementation(project(":network"))
+
+    // Project Modules - Features
+    implementation(project(":scanit"))
+    implementation(project(":cardgrab"))
+    implementation(project(":pricesnap"))
+    implementation(project(":locknote"))
+    implementation(project(":facemark"))
+    implementation(project(":playloop"))
+    implementation(project(":themeflip"))
+    implementation(project(":memefeed"))
+    implementation(project(":homealert"))
+    implementation(project(":steppulse"))
+    implementation(project(":autobackup"))
+    implementation(project(":hydratrack"))
+    implementation(project(":dailyquote"))
+    implementation(project(":tapshare"))
+    implementation(project(":pulseband"))
+    implementation(project(":voicejot"))
+    implementation(project(":screengrab"))
+    implementation(project(":ratenudge"))
+    implementation(project(":adfree"))
+    implementation(project(":focuslock"))
+    implementation(project(":miniplay"))
+    implementation(project(":arule"))
+    implementation(project(":quickcall"))
+    implementation(project(":tapdonate"))
 
     // Compose
     implementation(platform(libs.androidx.compose.bom))
